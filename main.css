@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.menu{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    transform: translate(-100);
+}
+
+.burger-menu{
+    color: gray;
+    font-size: 30px;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    transition: 0.3s;
+}
+
+#check{
+    display: none;
+}
+
+#check:checked~ .ul{
+    transform: translate(0);
+}
+
+/* grid */
+
