@@ -18,13 +18,19 @@
     margin-top: 25px;
   }
 
-  button{
+  .btn{
     color: white;
     padding: 15px;
     background-color: gray;
     font-size: 20px;
-   margin-left: 1000px;
-   margin-top: 40px;
+   margin: 0 auto;
+   border: none;
+  }
+
+  .btn-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
   }
 
   .menu{
